@@ -1,7 +1,0 @@
-pyTelegramBotAPI
-google-generativeai
-requests
-python-docx
-openpyxl
-python-pptx
-fpdf2
