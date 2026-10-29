@@ -1,0 +1,14 @@
+
+{
+  "name": "konan-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "KONAN AI Telegram Bot",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
