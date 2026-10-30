@@ -2,5 +2,5 @@
 {
   "name": "konan-bot",
   "main": "index.js",
-  "compatibility_date": "2026-10-31"
+  "compatibility_date": "2025-10-01"
 }
