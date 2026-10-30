@@ -31,11 +31,6 @@ async function sendMessage(chatId, text, token) {
 }
 
 
-  if (!response.ok) {
-    throw new Error("Telegram send failed");
-  }
-}
-
 async function askAI(question, apiKey) {
   const response = await fetch(OPENROUTER_API, {
     method: "POST",
