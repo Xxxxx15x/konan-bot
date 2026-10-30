@@ -16,6 +16,21 @@ async function sendMessage(chatId, text, token) {
     }
   );
 
+  const result = await response.text();
+
+  if (!response.ok) {
+    console.error(
+      "Telegram API error:",
+      response.status,
+      result
+    );
+    throw new Error(
+      `Telegram send failed: ${response.status}`
+    );
+  }
+}
+
+
   if (!response.ok) {
     throw new Error("Telegram send failed");
   }
